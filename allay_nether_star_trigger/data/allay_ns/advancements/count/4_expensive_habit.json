@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:allay_spawn_egg"
+    },
+    "title": "Expensive Habit",
+    "description": "That is a lot of Nether Stars.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "allay_ns:count/3_can_you_stop",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

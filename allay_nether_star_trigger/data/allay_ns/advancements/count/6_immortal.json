@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:allay_spawn_egg"
+    },
+    "title": "Immortality Protocol",
+    "description": "Okay, we get it, you don't want to die.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "allay_ns:count/5_cheating_death",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "interact_with_allay": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:nether_star"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:allay"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "allay_ns:execute_hardcore"
+  }
+}
